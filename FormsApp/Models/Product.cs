@@ -1,8 +1,10 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace FormsApp.Models
 {
     public class Product
     {
-
+        [Display(Name = "Urun Id")]
         public int ProductId { get; set; }
 
         public string? Name { get; set; }
